@@ -10,7 +10,12 @@ class Dog
     @id = id
   end
   
-  dog self.create_table
+  def self.create_table
+    sql =->SQL
+    CREATE TABLE IF NOT EXISTS
+    
+    
+  end
   
   
   
