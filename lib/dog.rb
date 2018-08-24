@@ -10,6 +10,7 @@ class Dog
     @id = id
   end
   
+  dog self.create_table
   
   
   
