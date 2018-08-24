@@ -30,9 +30,9 @@ class Dog
     
   end
   
-   def self.create(name, grade)
-    student = Student.new(name, grade)
-    student.save
+   def self.create(name, breed)
+    dog = Dog.new(name, breed)
+    dog.save
   end
 
   def self.new_from_db(row)
